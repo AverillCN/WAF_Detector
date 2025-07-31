@@ -100,20 +100,6 @@ python3 waf_detector.py -u https://example.com --no-redirects -o results.json
 2. 频繁请求可能触发目标网站的防护机制，建议合理设置延迟
 3. 部分WAF可能采用动态特征，结果仅供参考，需结合人工验证
 
-
-## 许可证
-本项目基于MIT许可证开源，详情参见[LICENSE](LICENSE)文件。
-
-
-## 贡献指南
-欢迎提交Issue或PR参与改进：
-1. Fork本仓库
-2. 创建特性分支（`git checkout -b feature/new-feature`）
-3. 提交修改（`git commit -m 'Add new feature'`）
-4. 推送到分支（`git push origin feature/new-feature`）
-5. 发起Pull Request
-
-
 ---
 
-如有问题或建议，可通过Issue反馈，或联系：contact@wafdetector.example
+如有问题或建议，可通过Issue反馈.
