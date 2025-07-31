@@ -1,6 +1,9 @@
 # WAF_Detector
 一款轻量高效的 Web 应用防火墙（WAF）探测工具，可检测目标网站是否部署 WAF 并识别其类型，支持多种自定义参数以适应不同测试场景。
-以下是为该WAF探测工具编写的GitHub文档，采用标准的README.md格式，包含工具介绍、安装使用、参数说明等核心内容：
+## 注意事项
+1. 仅用于合法授权的安全测试，未经授权检测他人网站可能违反法律
+2. 频繁请求可能触发目标网站的防护机制，建议合理设置延迟
+3. 部分WAF可能采用动态特征，结果仅供参考，需结合人工验证
 
 ```
                      _     _     __          __
@@ -30,7 +33,7 @@
 
 1. 克隆仓库到本地
    ```bash
-   git clone https://github.com/your-username/waf-detector.git
+   git clone https://github.com/AverillCN/WAF_Detector.git
    cd waf-detector
    ```
 
@@ -95,10 +98,7 @@ python3 waf_detector.py -u https://example.com --no-redirects -o results.json
 - **WAF类型**：识别出的具体WAF厂商（如Cloudflare、Akamai等）
 
 
-## 注意事项
-1. 仅用于合法授权的安全测试，未经授权检测他人网站可能违反法律
-2. 频繁请求可能触发目标网站的防护机制，建议合理设置延迟
-3. 部分WAF可能采用动态特征，结果仅供参考，需结合人工验证
+
 
 ---
 
